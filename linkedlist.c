@@ -9,7 +9,7 @@ typedef struct node node;
 node *head=NULL;
 
 void insert(int a){
-    node *temp=(node *)malloc(sizeof(struct node));
+    node *temp=(node *)malloc(sizeof(struct node));     //faltu mae comment add kiya
     temp->index=a;
     temp->next=head;
     head=temp;
